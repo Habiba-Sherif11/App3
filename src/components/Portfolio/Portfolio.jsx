@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 
 // Use placeholder images for now - replace with your actual images
 const portfolioImages = [
-  { id: 1, src: './src/assets/cake.png', title: 'Cake' },
-  { id: 2, src: './src/assets/cabin.png', title: 'Cabin' },
-  { id: 3, src: './src/assets/circus.png', title: 'Circus' },
-  { id: 4, src: './src/assets/game.png', title: 'Game' },
-  { id: 5, src: './src/assets/safe.png', title: 'Safe' },
-  { id: 6, src: './src/assets/submarine.png', title: 'Submarine' },
+  { id: 1, src: '/src/assets/cake.png', title: 'Cake' },
+  { id: 2, src: '/src/assets/cabin.png', title: 'Cabin' },
+  { id: 3, src: '/src/assets/circus.png', title: 'Circus' },
+  { id: 4, src: '/src/assets/game.png', title: 'Game' },
+  { id: 5, src: '/src/assets/safe.png', title: 'Safe' },
+  { id: 6, src: '/src/assets/submarine.png', title: 'Submarine' },
 ];
 
 const Portfolio = () => {
